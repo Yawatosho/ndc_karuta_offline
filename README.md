@@ -16,6 +16,18 @@
 
 ZIPファイルの中から直接開かず、先に展開してください。画像・音声なども必要なため、フォルダ内のファイルはまとめて保管してください。
 
+展開した `offline` フォルダの構成は次のとおりです。ゲームを始めるときに開くのは `index.html` です。
+
+```text
+offline/
+├── index.html   ← これを開いて遊びます
+├── README.md    ← 遊び方と利用条件
+├── assets/      ← ゲームに必要なファイル
+└── docs/        ← 使用素材とライセンスの説明
+```
+
+`assets` と `docs` は、そのまま同じ場所に置いておいてください。
+
 ## 遊びかた
 
 数字を見たり読み上げを聞いたりしながら、対応する札をクリック、またはタップします。詳しいルールはゲーム画面の `HOW TO PLAY` で確認できます。
@@ -60,6 +72,6 @@ HI SCORE MODEとENDLESS MODEでは、それぞれ上位5件のスコアを保存
 
 - **日本十進分類法のデータ**：日本図書館協会NDC9（CC BY）を使用しています。分類記号・分類項目名をゲーム用に抽出・整形したデータを同梱しています。[公開元の案内](https://www.jla.or.jp/committees/bunrui/ndc-data/)
 - **音声素材**：[効果音ラボ](https://soundeffect-lab.info/)の音声素材を使用しています。素材には[効果音ラボの利用規約](https://soundeffect-lab.info/agreement/)が適用されます。ゲームから音声ファイルを取り出し、素材として再配布することはできません。
-- **Bebas Neue / Noto Sans JP**：SIL Open Font License 1.1のフォントを同梱しています。著作権表示とライセンス本文は `fonts/licenses/` に収録しています。
+- **Bebas Neue / Noto Sans JP**：SIL Open Font License 1.1のフォントを同梱しています。著作権表示とライセンス本文は `assets/fonts/licenses/` に収録しています。
 
-素材の出典・著作権表示の詳細は、ZIPファイルに同梱している `LICENSE_NOTES.md` をご確認ください。
+素材の出典・著作権表示の詳細は、ZIPファイルに同梱している `docs/LICENSE_NOTES.md` をご確認ください。
